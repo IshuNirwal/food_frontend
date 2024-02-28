@@ -1,0 +1,88 @@
+/* .login .row {
+    display: flex;
+    background: #13131a;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .login .row .image {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .login .row .text{
+    color: white;
+    margin: 10px;
+  } */
+
+  .login .row {
+    display: flex;
+    background: #13131a;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .login .row .image {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .text{
+    color: white;
+    font-size: 15px;
+    margin-top: 80px;
+    flex: 1 1 2rem;
+    text-align: left;
+    
+  } 
+  
+ .login .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .login .row form h3 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  
+  .login .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #13131a;
+    border: 0.2rem solid #ffc107;
+  }
+  
+  .login .row form .inputBox span {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .login .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+  }
+  .login .row a{
+    margin-right: 500px;
+    color: #ffc107;
+    font-size: 1.7rem;
+  }
+  .login .row alert{
+    margin-right: 560px;
+    color: red;
+    font-size: 1.8rem;
+  }
+  .check input {
+    color: #ffc107;
+    font-size: 1.7rem;
+  }
+  

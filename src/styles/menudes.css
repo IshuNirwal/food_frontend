@@ -1,0 +1,93 @@
+.menudesc .row {
+    display: flex;
+    align-items: center;
+    background: #13131a;
+    flex-wrap: wrap;
+  }
+  
+  .menudesc .row .image {
+    flex: 1 1 45rem;
+    color: white;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+  }
+  
+  .menudesc .row .image img {
+    width: 30%;
+    height: 10%;
+  }
+  
+  .menudesc .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+  }
+  
+  .menudesc .row .image h3 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .menudesc .row .image span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #ffc107;
+  }
+
+  .menudesc .row .content .price {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+  }
+  
+  .menudesc .row .content .price span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #ffc107;
+  }
+  .menudesc .row .image p {
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+  }
+  .menudesc .row .content .price .quantity {
+    display: flex;
+    align-items: center;
+    padding: 0.9rem 37rem;
+    margin-top: 1rem;
+    
+  }
+  
+  .menudesc .row .content .price .quantity .quantity-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: black;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    background: white;
+  }
+  
+  .menudesc .row .content .price .quantity .quantity-input {
+    width: 30px;
+    height: 32px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    background: white;
+  
+  }
+  
+  /* Optional: Style the buttons on hover */
+  .menudesc .row .content .price .quantity .quantity-btn:hover {
+    background-color: #ffc107;
+  }
+
+  .menudesc .row .content .price .quantity .quantity-input:hover{
+    background-color: #ffc107;
+  }
+  
